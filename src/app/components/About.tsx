@@ -1,6 +1,6 @@
 import { useScrollReveal } from "./useScrollReveal";
 import { User, MapPin, GraduationCap, Code2, Sparkles } from "lucide-react";
-
+import profileImage from "../../imports/profile.png";
 const highlights = [
   { icon: GraduationCap, label: "B.Tech 2nd Year", sub: "Ajeenkya DY Patil University" },
   { icon: MapPin, label: "Pune, India", sub: "Open to remote & relocation" },
@@ -100,20 +100,25 @@ export function About() {
                   background: "linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%)",
                 }}
               >
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <User size={80} color="rgba(255,255,255,0.3)" />
-                </div>
-                <div
-                  className="absolute bottom-0 left-0 right-0 py-3 text-center text-sm font-semibold"
-                  style={{
-                    background: "rgba(0,0,0,0.3)",
-                    color: "#fff",
-                    fontFamily: "'Inter', sans-serif",
-                    backdropFilter: "blur(8px)",
-                  }}
-                >
-                  Y. Sanjith Reddy
-                </div>
+               <div className="absolute inset-0">
+  <img
+    src={profileImage}
+    alt="Y. Sanjith Reddy"
+    className="w-full h-full object-cover"
+  />
+</div>
+
+<div
+  className="absolute bottom-0 left-0 right-0 py-3 text-center text-sm font-semibold"
+  style={{
+    background: "rgba(0,0,0,0.3)",
+    color: "#fff",
+    fontFamily: "'Inter', sans-serif",
+    backdropFilter: "blur(8px)",
+  }}
+>
+  Y. Sanjith Reddy
+</div>
               </div>
               <div
                 className="px-5 py-3 rounded-xl border text-center"
