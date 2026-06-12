@@ -1,11 +1,23 @@
+# Sanjith Reddy Portfolio
 
-  # Frontend Developer Portfolio
+Personal portfolio website showcasing my frontend development skills, projects, and certifications.
 
-  This is a code bundle for Frontend Developer Portfolio. The original project is available at https://www.figma.com/design/mZyeefkTRfKUGzwmEMFsy6/Frontend-Developer-Portfolio.
+## Tech Stack
 
-  ## Running the code
+- React.js
+- TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- Vite
 
-  Run `npm i` to install the dependencies.
+## Featured Projects
 
-  Run `npm run dev` to start the development server.
-  
+- E-Commerce Store Application
+- Task Management Dashboard
+- Job Portal Application
+
+## Contact
+
+- GitHub: https://github.com/sanjithreddy11-ui
+- LinkedIn: [Your LinkedIn]
