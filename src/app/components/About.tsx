@@ -3,7 +3,7 @@ import { User, MapPin, GraduationCap, Code2, Sparkles } from "lucide-react";
 
 const highlights = [
   { icon: GraduationCap, label: "B.Tech 2nd Year", sub: "Ajeenkya DY Patil University" },
-  { icon: MapPin, label: "Hyderabad, India", sub: "Open to remote & relocation" },
+  { icon: MapPin, label: "Pune, India", sub: "Open to remote & relocation" },
   { icon: Code2, label: "Front-End Focused", sub: "React.js, HTML, CSS, JavaScript" },
   { icon: Sparkles, label: "Available for Internships", sub: "Actively seeking opportunities" },
 ];

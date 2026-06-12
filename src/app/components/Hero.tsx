@@ -208,7 +208,7 @@ export function Hero() {
             </button>
             <a
               href={resumePdf}
-              download="Yaramada_Sanjith_Reddy_Resume.pdf"
+              target="Yaramada_Sanjith_Reddy_Resume.pdf"
               className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all hover:scale-105 border"
               style={{
                 borderColor: "rgba(255,255,255,0.25)",
