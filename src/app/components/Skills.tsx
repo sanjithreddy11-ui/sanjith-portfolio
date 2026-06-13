@@ -10,15 +10,17 @@ const skillCategories = [
       { name: "CSS3", level: 88, icon: "🎨" },
       { name: "JavaScript (ES6+)", level: 82, icon: "⚡" },
       { name: "React.js", level: 78, icon: "⚛️" },
+      { name: "TypeScript", level: 82, icon: "📘" },
+      { name: "Next.js", level: 80, icon: "▲" }
     ],
   },
   {
     title: "Styling & Layout",
     color: "#1a6bbd",
     skills: [
-      { name: "Flexbox", level: 92, icon: "📐" },
-      { name: "CSS Grid", level: 85, icon: "🔲" },
-      { name: "Responsive Design", level: 88, icon: "📱" },
+        { name: "Tailwind CSS", level: 92, icon: "💨" },
+         { name: "Framer Motion", level: 80, icon: "✨" },
+          { name: "Glassmorphism UI", level: 88, icon: "🪟" }
     ],
   },
   {
@@ -29,6 +31,7 @@ const skillCategories = [
       { name: "GitHub", level: 80, icon: "🐙" },
       { name: "VS Code", level: 95, icon: "💻" },
       { name: "Chrome DevTools", level: 85, icon: "🔧" },
+       { name: "REST APIs", level: 88, icon: "🔗" }
     ],
   },
 ];
