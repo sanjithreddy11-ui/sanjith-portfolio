@@ -19,8 +19,8 @@ const skillCategories = [
     color: "#1a6bbd",
     skills: [
         { name: "Tailwind CSS", level: 92, icon: "💨" },
-         { name: "Framer Motion", level: 80, icon: "✨" },
-          { name: "Glassmorphism UI", level: 88, icon: "🪟" }
+         { name: "Framer Motion", level: 95, icon: "✨" },
+          { name: "Glassmorphism UI", level: 92, icon: "🪟" }
     ],
   },
   {
